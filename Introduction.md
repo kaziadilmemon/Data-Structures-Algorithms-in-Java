@@ -1,15 +1,21 @@
 Data Structures: 
 	Arrangement of data in main memory so that they (data items) can be used efficiently.
+
 Algorithms: 
 	Sequence of steps on data using efficient data structures to solve a given problem.
+
 Some other Terminology 
+
 Database:
 	Collection of information in permanent storage for faster retrieval and updation.
+
 Data Warehousing:
 	Management of huge amount of legacy data for better analysis.
+
 Big data:
 	Analysis of too large or complex data when cannot be deal with traditional data processing application.
- Classification of Data Structure
+
+Classification of Data Structure
 •	Linear data structure: Data structure in which data elements are arranged sequentially or linearly, where each element is attached to its previous and next adjacent elements, is called a linear data structure. 
 Examples of linear data structures are array, stack, queue, linked list, etc.
 
