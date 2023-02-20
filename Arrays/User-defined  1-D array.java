@@ -6,8 +6,8 @@ class UserDefined {
         
         Scanner sc=new Scanner(System.in);
       System.out.println("Enter the Numbers");
-       n=sc.nextInt();
-      int a[]=new int[n];
+       n=sc.nextInt(); // Taking Input 
+      int a[]=new int[n]; // Declaration and Initializaton 
       for(i=0;i<n;i++ ){
         a[i]=sc.nextInt();
       }
