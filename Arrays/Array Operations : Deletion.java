@@ -1,5 +1,3 @@
-
-
 import java.util.*;
 public class Deletion {
     public static void main(String[] args){
@@ -16,22 +14,27 @@ public class Deletion {
         }
         System.out.println("Enter the index value which you want to be Deleted: ");
         m=sc.nextInt();
-        for(int i=0;i<a.length;i++){
-            if(i<m){
-                b[i]=a[i];
-            }
-            else if(i==m){
+        for(int i=0;i<a.length;i++) {
+//            if(i<m){
+//                b[i]=a[i];
+//            }
+//            else if(i==m){
+//                continue;
+//            }
+//            else {
+//                b[i]=a[i];
+//            }
+            if (i == m)
                 continue;
-            }
-            else {
-                b[i-1]=a[i];
-            }
+            else
+                b[i] = a[i];
+        }
             System.out.println("Elements are: ");
-            for(i = 0; i<n-1; i++){
+            for(int i = 0; i<b.length; i++){
                 System.out.println(b[i]);
             }
 
         }
 
     }
-}
+
