@@ -1,0 +1,32 @@
+import java.util.*;
+public class treecreation{
+ static node create(){
+        int data;
+        Scanner sc=new Scanner(System.in);
+        node root =null;
+        System.out.println("Enter value");
+        data=sc.nextInt();
+        if(data==-1)
+            return null;
+        root=new node(data);
+        System.out.println("Enter left child of"+root.data);
+        root.left=create();
+        System.out.println("Enter right child of"+root.data);
+        root.right=create();
+        return root;
+
+    }
+    public static void main(String[] args){
+        node root=create();
+    }
+
+}
+class node{
+    node left,right;
+    int data;
+    public node(int data){
+        this.data=data;
+        this.left=null;
+        this.right=null;
+    }
+}
