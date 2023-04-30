@@ -30,4 +30,3 @@ class node{
         this.right=null;
     }
 }
-
